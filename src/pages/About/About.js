@@ -40,7 +40,7 @@ const About = () => {
         <p>I'm Ayaan!</p>
         <p>
           I'm pursuing my graduation at the university of mumbai on AI and Data Science.<b/>I'm passionate about Software development, Programming, Data Science, Business. I have experience making projects in both
-frontend and backend development using the MERN stack as well as doing data analysis stuff using python/R.
+frontend and backend development using the MERN stack as well as doing Data science stuff using python/R.
         </p>
         <p>
         
@@ -48,14 +48,14 @@ frontend and backend development using the MERN stack as well as doing data anal
         <p>Thanks for stopping by!</p>
       </div>
        <div className="download-container">
-        <h3 className="download-heading">Feel free to download my resume!</h3>
+        <h3 className="download-heading">For resume</h3>
         <Link
           className="download-button"
-          to=""
+          to="/contact"
           target="_blank"
           rel="noreferrer"
         >
-          Download
+          Contact me!
         </Link>
       </div>
       

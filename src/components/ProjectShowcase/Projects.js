@@ -2,14 +2,24 @@ const images = require.context("../../assets/side-projects", true);
 const Projects = [
 
   {
-    img: images("./Easy-CV.png"),
-    title: "Easy CV" ,
+    img: images("./kaivo.png"),
+    title: "Kaivo" ,
     description:
-      "easily make cv / resume on the go.",
-    skills: "React, NPM, CSS",
+      "An ecommerce website made using react.",
+    skills: "React, CSS, JavaScript",
     skillsArray: ["All","JavaScript", "React", "CSS"],
-    link: "https://ayxxn-shxrif.me/Easy-CV",
+    link: "https://ayxxn-shxrif.me/Kaivo/",
   },
+ {
+    img: images("./bella.png"),
+    title: "Bellabeat-Analysis",
+    description:
+      "This is a case study conducted as part of the Google Data Analytics Professional Certificate capstone course.",
+    skills: "Python, SQL,R",
+    skillsArray: ["All", "Python", "SQL", "R"],
+    link: "http://ayxxn-shxrif.me/Bellabeat-Analysis/",
+  },
+
   {
     img: images("./front.png"),
     title: "ProjectX",
@@ -19,15 +29,7 @@ const Projects = [
     skillsArray: ["All","Express","Node", "MongoDB","Pug","Bash","CSS"],
     link: "https://projectx-r5tf.onrender.com/",
   },
-    {
-    img: images("./bella.png"),
-    title: "Bellabeat-Analysis",
-    description:
-      "This is a case study conducted as part of the Google Data Analytics Professional Certificate capstone course.",
-    skills: "Python, SQL,R",
-    skillsArray: ["All", "Python", "SQL", "R"],
-    link: "http://ayxxn-shxrif.me/Bellabeat-Analysis/",
-  },
+   
   {
     img: images("./BERT-CLASSIFICATION.png"),
     title: "BERT-CLASSIFICATION",
