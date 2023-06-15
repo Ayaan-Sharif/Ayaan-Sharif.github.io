@@ -29,14 +29,13 @@ const AsyncImage = (props) => {
 const Home = () => {
   return (
     <div className="home-container">
-      <h1>Ayaan Sharif</h1>
-      <h3>Developer || Analyst   </h3>
       
-
+<h1> Ayaan Sharif</h1>
     
+      <h3>ML engineer / Developer</h3>
 
 
-      <AsyncImage className="me" src={me} alt="Me" title="Hi" />
+      <AsyncImage className="me" src={me} alt="Me" title="this is me" />
       
 
 

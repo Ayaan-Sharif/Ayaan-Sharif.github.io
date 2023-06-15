@@ -14,6 +14,7 @@ import {
   About,
   Experience,
   Contact,
+  Test,
 } from "./pages/index";
 import "./App.css";
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />}/>
           <Route path="/experience" element={<Experience />}/>
+          <Route path = "/test" element={<Test />} />
         </Route>
         <Route path="*" element={<FourZeroFour />} />
       </Routes>
