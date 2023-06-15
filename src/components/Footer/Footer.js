@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <div className="icon-container">
           <a
-            href="https://www.instagram.com/shxrifayxxn/"
+            href="https://www.instagram.com/ayxxn_shxrif/"
             target="_blank"
             rel="noreferrer"
           >
