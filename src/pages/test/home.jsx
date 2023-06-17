@@ -1,5 +1,5 @@
 import React from "react";
-import HoverEffect from '../../components/Hovereffect/Hovereffect.jsx';
+import HoverEffect from "../../components/Hovereffect/Hovereffect.jsx";
 import loading from "../../assets/loading.svg";
 import me from "../../assets/me.jpg";
 import "./Home.scoped.scss";
@@ -29,48 +29,26 @@ const AsyncImage = (props) => {
 const Test = () => {
   return (
     <div className="body">
- <div>
-      <hr>
-        <ul class="social-media-list">
-          <li><a href="#/home" target="_blank" class="contact-icon">
-            <i class="fa fa-github" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#/home" target="_blank" class="contact-icon">
-            <i class="fa fa-codepen" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#/home" target="_blank" class="contact-icon">
-            <i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="/home" target="_blank" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </li>       
-        </ul>
-        </hr>
-        </div>
+     
       <div className="home-container">
         <HoverEffect />
-      
-
-    
- <div id="profiles">
-      <div className="profile">
-        <div className="profile-content">
-          <div className="profile-pic">
-            <img className="profile-pic-image" src="https://ayxxn-shxrif.me/static/media/me.444e16c1dabca2be9844.jpg" alt="Profile" />
+        <div id="profiles">
+          <div className="profile">
+            <div className="profile-content">
+              <div className="profile-pic">
+                <img
+                  className="profile-pic-image"
+                  src="https://ayxxn-shxrif.me/static/media/me.444e16c1dabca2be9844.jpg"
+                  alt="Profile"
+                />
+              </div>
+              
+            </div>
           </div>
-          <h1 data-value="Ayaan Sharif">Ayaan Sharif</h1>
         </div>
       </div>
-    </div>
-
-      
-
-
-
-</div>
     </div>
   );
 };
 
 export default Test;
-
