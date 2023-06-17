@@ -32,7 +32,7 @@ const Home = () => {
       
 <h1> Ayaan Sharif</h1>
     
-      <h3>ML engineer / Developer</h3>
+      <h3>ML / SWE</h3>
 
 
       <AsyncImage className="me" src={me} alt="Me" title="this is me" />
