@@ -25,7 +25,7 @@ const Footer = () => {
       
 
              <ul className="social-media-list">
-          <li> <a
+<li> <a
             href="https://www.linkedin.com/in/ayaansharif/"
             target="_blank"
             rel="noreferrer"
