@@ -14,6 +14,7 @@ import {
   About,
   Experience,
   Contact,
+  Test,
 } from "./pages/index";
 import "./App.css";
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />}/>
           <Route path="/experience" element={<Experience />}/>
+          <Route path = "/test" element={<Test />} />
         </Route>
         <Route path="*" element={<FourZeroFour />} />
       </Routes>
@@ -38,7 +40,7 @@ function App() {
         location="bottom"
         enableDeclineButton
         buttonText="Allow Cookies"
-        declineButtonText="Dark Mode is Boring"
+        declineButtonText="dont like Dark mode!"
         flipButtons={true}
         style={{
           background: "var(--font-color)",
@@ -53,7 +55,7 @@ function App() {
         declineButtonStyle={{ borderRadius: 10 }}
       >
         This website uses cookies to save theme preferences. You can change
-        themes by clicking the doodle on the top left.
+        themes by clicking the sun on the top right.
       </CookieConsent>
     </HashRouter>
   );

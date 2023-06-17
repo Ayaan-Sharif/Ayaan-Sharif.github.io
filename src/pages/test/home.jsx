@@ -1,5 +1,5 @@
 import React from "react";
-
+import HoverEffect from "../../components/Hovereffect/Hovereffect.jsx";
 import loading from "../../assets/loading.svg";
 import me from "../../assets/me.jpg";
 import "./Home.scoped.scss";
@@ -26,23 +26,29 @@ const AsyncImage = (props) => {
   );
 };
 
-const Home = () => {
+const Test = () => {
   return (
-    <div className="home-container">
-      
-<h1> Ayaan Sharif</h1>
-    
-      <h3>ML / SWE</h3>
-
-
-      <AsyncImage className="me" src={me} alt="Me" title="this is me" />
-      
-
-
-
-
+    <div className="body">
+     
+      <div className="home-container">
+        <HoverEffect />
+        <div id="profiles">
+          <div className="profile">
+            <div className="profile-content">
+              <div className="profile-pic">
+                <img
+                  className="profile-pic-image"
+                  src="https://ayxxn-shxrif.me/static/media/me.444e16c1dabca2be9844.jpg"
+                  alt="Profile"
+                />
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Home;
+export default Test;

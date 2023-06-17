@@ -10,7 +10,6 @@ import { faHouseUser,faTerminal, faUser,faEnvelope} from "@fortawesome/free-soli
 const NavBar = () => {
   return (
     <nav className="nav-bar">
-      <DarkModeButton />
       <ul className="nav-links">
       
         <li className="nav-link">
@@ -36,7 +35,11 @@ const NavBar = () => {
             <FontAwesomeIcon icon={faEnvelope} /> Contact
           </Link>
         </li>
+
+        
       </ul>
+      <DarkModeButton />
+
     </nav>
   );
 };
