@@ -23,6 +23,13 @@
   color: #f2f2f2;
 }
 
+.social-media-list li a.kaggle-icon svg {
+  fill: #f2f2f2;
+}
+.social-media-list li:hover a.kaggle-icon svg {
+  fill: #202020;
+}
+
 .social-media-list li {
   position: relative; 
   display: inline-block;
